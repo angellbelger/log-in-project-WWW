@@ -14,10 +14,19 @@
 * {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html, body {
     background-color: var(--colour06);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 section#login {
@@ -28,19 +37,22 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 5px 5px 7px #0000007a;
     
 }
 
 div#image {
     background-image: url(../images/pexels-giallo-859890\ copy.jpg);
+    display: block;
     height: 280px;
     width: 290px;
     background-size: cover;
-    border-radius: 50px 50px 0px 0px;
 }
 
 div#form {
     color: var(--colour06);
+    display: block;
     height: 280px;
     padding: 7px;
 }
