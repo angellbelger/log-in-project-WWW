@@ -22,7 +22,7 @@ html, body {
 
 section#login {
     background-color: var(--colour03);
-    width: 300px;
+    width: 290px;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -33,15 +33,15 @@ section#login {
 
 div#image {
     background-image: url(../images/pexels-giallo-859890\ copy.jpg);
-    height: 270px;
-    width: 300px;
+    height: 280px;
+    width: 290px;
     background-size: cover;
     border-radius: 50px 50px 0px 0px;
 }
 
 div#form {
     color: var(--colour06);
-    height: 270px;
+    height: 280px;
     padding: 7px;
 }
 
@@ -64,7 +64,7 @@ div.button {
 }
 
 input {
-    font-size: 16px;
+    font-size: 17px;
     background-color: #FFFFFF;
     border: 0px;
     border-radius: 7px;
@@ -81,4 +81,5 @@ input.button:hover {
     color: var(--colour06);
     background-color: var(--colour07);
     transition: 0.3s;
+    cursor: pointer;
 }
