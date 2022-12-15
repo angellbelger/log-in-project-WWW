@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* MOBILE FIRST */
+
+:root {
+    --colour00: #000000;
+    --colour01: #1C0221;
+    --colour02: #445E71;
+    --colour03: #467599;
+    --colour06: #C9F9FF;
+    --colour07: #DF2935;
+}
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    background-color: var(--colour06);
+}
+
+section#login {
+    background-color: var(--colour03);
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);border-radius: 50px;
+    
+}
+
+div#image {
+    background-image: url(../images/pexels-giallo-859890\ copy.jpg);
+    height: 270px;
+    width: 300px;
+    background-size: cover;
+    border-radius: 50px 50px 0px 0px;
+}
+
+div#form {
+    color: var(--colour06);
+    height: 270px;
+    padding: 7px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 7px;
+}
+
+p.pInput {
+    background-color: #214b6b;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+div.button {
+    text-align: center;
+}
+
+input {
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 7px;
+}
+
+input.button {
+    min-width: 250px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+input.button:hover {
+    color: var(--colour06);
+    background-color: var(--colour07);
+    transition: 0.3s;
+}
