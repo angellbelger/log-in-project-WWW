@@ -1,6 +1,19 @@
 @charset "UTF-8";
 
-/* MOBILE FIRST */
+
+/*------- Mobile First -------*/
+
+/*
+================ Everyone ================
+======= Typical Device Breakpoints =======
+
+small screen: max 600px
+cellphone screen: min 600px max 768px
+tablet screen: min 768px max 992px
+desktop screen: min 992px max 1200px
+tv screen: min 1200px
+
+*/
 
 :root {
     --colour00: #000000;
@@ -46,7 +59,7 @@ section#login {
 div#image {
     background-image: url(../images/pexels-giallo-859890\ copy.jpg);
     display: block;
-    height: 280px;
+    height: 220px;
     width: 290px;
     background-size: cover;
 }
@@ -54,7 +67,7 @@ div#image {
 div#form {
     color: var(--colour06);
     display: block;
-    height: 280px;
+    height: 270px;
     padding: 7px;
 }
 
