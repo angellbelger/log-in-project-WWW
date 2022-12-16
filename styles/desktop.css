@@ -14,5 +14,6 @@ div#image {
 div#form {
     float: left;
     height: 490px;
+    width: 50%;
 
 }
