@@ -6,11 +6,13 @@ section#login {
 }
 
 div#image {
-    float: left;
+    float: right;
     height: 100%;
     width: 50%;
 }
 
 div#form {
-    float: right;
+    float: left;
+    height: 490px;
+
 }
