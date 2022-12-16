@@ -116,6 +116,10 @@ input.button:hover {
     cursor: pointer;
 }
 
+div#form label {
+    display: none;
+}
+
 a.button {
     display: block;
     text-align: center;
@@ -133,3 +137,14 @@ a.button:hover {
     transition: 0.3s;
     cursor: pointer;
 } 
+
+div.pInput span {
+    background-color: #000000;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+input.campus {
+    
+}
