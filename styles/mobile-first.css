@@ -39,7 +39,7 @@ section#login {
     left: 50%;
     transform: translate(-50%,-50%);border-radius: 50px;
     overflow: hidden;
-    box-shadow: 5px 5px 7px #0000007a;
+    box-shadow: 0px 0px 7px #0000007a;
     
 }
 
