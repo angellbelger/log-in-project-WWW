@@ -9,6 +9,7 @@
     --colour03: #467599;
     --colour06: #C9F9FF;
     --colour07: #DF2935;
+    --colour08: #214b6b;
 }
 
 * {
@@ -18,7 +19,7 @@
 }
 
 html, body {
-    background-color: var(--colour06);
+    background-color: var(--colour08) ;
     height: 100vh;
     width: 100vw;
 }
@@ -66,7 +67,7 @@ p {
 }
 
 p.pInput {
-    background-color: #214b6b;
+    background-color: var(--colour08);
     margin: 4px;
     border-radius: 10px;
 }
