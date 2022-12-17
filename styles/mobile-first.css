@@ -32,7 +32,7 @@ tv screen: min 1200px
 }
 
 html, body {
-    background-color: var(--colour08) ;
+    background-color: var(--colour06) ;
     height: 100vh;
     width: 100vw;
 }
@@ -50,7 +50,8 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);border-radius: 50px;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
     overflow: hidden;
     box-shadow: 0px 0px 7px #0000007a;
     transition: width 0.7s, height 0.7s;
@@ -83,9 +84,9 @@ p {
 
 div.pInput {
     background-color: var(--colour08);
-    padding: 5px;
+    padding: 0px;
     margin: 4px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 div.button {
@@ -93,10 +94,10 @@ div.button {
 }
 
 input {
-    font-size: 17px;
+    font-size: 20px;
     background-color: #FFFFFF;
     border: 0px;
-    border-radius: 7px;
+    border-radius: 40px;
 }
 
 input.button {
@@ -127,24 +128,32 @@ a.button {
     background-color: var(--colour08);
     color: var(--colour06);
     padding: 7px;
-    border-radius: 7px;
+    border-radius: 40px;
     margin: 5px 0px;
 }
 
 a.button:hover {
     color: var(--colour06);
     background-color: var(--colour07);
-    transition: 0.3s;
     cursor: pointer;
+    transition: 0.3s;
 } 
 
 div.pInput span {
-    background-color: #000000;
-    font-size: 2em;
+    /*background-color: #000000;*/
+    font-size: 1.5em;
     width: 40px;
     padding: 5px;
 }
 
 input.campus {
-    
+    background-color: var(--colour06);
+    width: calc(100% - 45px);
+    transform: translateY(-2px);
+    height: 100%;
+    padding: 7px;
+}
+
+input.campus:focus-within {
+    background-color: #ffffff;
 }
