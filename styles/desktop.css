@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+    background-image: linear-gradient(to right, var(--colour08), var(--colour06));
+}
+
 section#login {
     width: 80vw;
     height: 490px;
